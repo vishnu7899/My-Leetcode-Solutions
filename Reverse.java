@@ -18,6 +18,8 @@ public class Reverse {
         
         return (x < 0) ? (-rev) : rev;  // Original number ke sign ke hisaab se result diya
     }
+
+    // main method
     public static void main(String[] args) {
         Reverse r = new Reverse();
         System.out.println(r.reverse(284));
